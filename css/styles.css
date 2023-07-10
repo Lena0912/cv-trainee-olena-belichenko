@@ -17,6 +17,14 @@ body {
 .list {
     list-style: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+}
 /* Main content */
 .main-content {
         padding: 88px;
@@ -49,7 +57,7 @@ color: #595959;
 width: 525;
 }
 .about-me-container {
-   margin-bottom: 64px;  
+   margin-bottom: 24px;  
 }
 .main-contant-title {
     font-weight: 700;
@@ -128,39 +136,31 @@ margin: 0;
 /* Education */
 .education-experience-container {
 margin-bottom: 44 px;
-
-
 }
 .education-experience-list {
     display: flex;
-    gap: 20px;
-    padding: 0;
-    
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;    
 }
-.education-experience-items {
-    
-    
-    
-}
+
 .education-experience-items:hover {
-    transform: scale(1.15);
+    transform: scale(1.05);
 }
 .education-place {
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
-line-height: 20px;      
-color: #6D9BF5; 
-margin: 12px 0 12px 0;  
+line-height: 1.25;      
+color: #6D9BF5;  
 }
 
 .education-position {
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
-line-height: 17px;
+line-height: 1.21;
 color: #000000;
-margin: 0 0 12px 0;
 }
 .education-period {
 font-style: normal;
@@ -177,6 +177,7 @@ width: 370px;
 background: #E0EBFE;
 }
 .sidebar-img {
+    overflow: hidden;
     border-radius: 250px;
     padding: 20px;
 }
@@ -186,15 +187,15 @@ margin-top: 40px;
 .contacts-container,
 .tech-skills-container, 
 .soft-skills-container {
-margin: 48px 0 0 40px;
+margin: 20px 0 0 40px;
 }
 .sidebar-title { 
 font-style: normal;
 font-weight: 700;
 font-size: 22px;
-line-height: 27px;
+line-height: 1.23;
 color: #161D2A;
-margin-bottom: 8px;
+/* margin-bottom: 8px; */
 }
 /* Contacts */
 
